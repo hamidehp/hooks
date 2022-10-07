@@ -1,10 +1,14 @@
 
 import './App.css';
-
+import UseRefExample from './hooks/UseRefExample';
 const App=() =>{
   return (
-    <div className="App">
-     <h3>آموزش هوک ها</h3>
+    <div className="container">
+       <div className="text-center mt-2">
+     <h2>آموزش استفاده از هوک های ری اکت</h2>
+     </div>
+     <hr className='text-danger' />
+     <UseRefExample />
     </div>
   );
 }
