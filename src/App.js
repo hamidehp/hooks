@@ -14,7 +14,10 @@ const App=() =>{
      <UseRefExample />
      </Accordion>
      <hr className='text-primary' />
-    
+     <Accordion title="useMemo Hook " heading ="headingTwo">
+     <UseMemoExample />
+     </Accordion>
+     <hr className='text-success' />
     </div>
   );
 }
