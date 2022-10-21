@@ -29,7 +29,7 @@ const UseMemoExample = () => {
 
   return (
     <div className="mx-auto mt-5 d-grid gap-3 w-50" style={appStyle}>
-      <h5 className="alert alert-primary text-center">آشنایی با هوک useMemo</h5>
+      <h5 className="alert alert-primary text-center"> useMemo hook</h5>
       <input
         type="number"
         className="form-control"
