@@ -14,7 +14,7 @@ const UseRefExample=()=>{
     },[name]    );
     const focusInput=()=>{
         inputRef.current.focus();
-        inputRef.current.placeholder="سلام";
+        inputRef.current.placeholder="Hello";
         
     }
     return(
